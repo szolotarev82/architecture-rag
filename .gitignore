@@ -37,7 +37,6 @@ hf_cache/
 *.pem
 
 # ─── Результаты тестов и логи ──────────────────
-test_results.txt
 *.log
 logs/
 
