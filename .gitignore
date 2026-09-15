@@ -1,0 +1,57 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Виртуальные окружения ─────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── ChromaDB и векторные индексы ──────────────
+chroma_data/
+chroma/
+*.sqlite3
+*.duckdb
+
+# ─── Модели и кэш HuggingFace ──────────────────
+models/
+*.bin
+*.safetensors
+*.onnx
+.huggingface/
+hf_cache/
+.cache/
+
+# ─── Переменные окружения и секреты ────────────
+.env
+.env.*
+*.key
+*.pem
+
+# ─── Результаты тестов и логи ──────────────────
+*.log
+logs/
+
+# ─── IDE ──────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Прочее ───────────────────────────────────
+*.tmp
+*.bak
